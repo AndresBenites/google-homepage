@@ -115,6 +115,10 @@ nav a:hover {
     padding: 0 1em;
 }
 
+#footer a:hover {
+    text-decoration: underline;
+}
+
 #footer-left {
     padding-left: 2em;
 }
