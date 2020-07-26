@@ -2,6 +2,8 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: arial,sans-serif;
+    color: #3b3b3b;
 }
 
 nav {
@@ -14,6 +16,21 @@ nav {
     /* background-color: gray; */
     font-size: 15px;
     font-family: arial,sans-serif;
+}
+
+nav i, nav img {
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 #nav-left {
@@ -90,6 +107,12 @@ nav {
 	height: 40px;
     align-items: center;
     background-color: #e6e4e4;
+}
+
+#footer a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0 1em;
 }
 
 #footer-left {
